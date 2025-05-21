@@ -1,16 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-        SayHello();
+        SayHello("James);
+        SayGoodbye("James);
     }
-    public void SayHello()
+    public void SayHello(string FirstName)
     {
         System.out.println("Hello There");
+        System.out.println(FirstName);
     }
 
-    public void SayGoodbye()
+    public void SayGoodbye(String FirstName)
     {
-	// This prints to the standard output     
         System.out.println("Say Goodbye);
+        System.out.println(FirstName);
     }
 }
