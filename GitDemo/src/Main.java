@@ -7,4 +7,10 @@ public class Main {
     {
         System.out.println("Hello There");
     }
+
+    public void SayGoodbye()
+    {
+	// This prints to the standard output     
+        System.out.println("Say Goodbye);
+    }
 }
